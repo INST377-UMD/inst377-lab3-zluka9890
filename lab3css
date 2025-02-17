@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header and Footer */
+.header-footer {
+    background-color: #b8d8ff;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #e4c7ff;
+    padding: 10px 0;
+    color: black;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+main {
+    flex: 2;
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+aside {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+}
+
+aside:hover {
+    background-color: lavenderblush;
+    color: black;
+}
+
+
+form {
+    margin-top: 15px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 16px;
+    transition: font-size 0.3s ease-in-out, color 0.3s ease-in-out;
+    display: inline-block;
+}
+
+label:hover {
+    font-size: 20px;
+    color: darkblue;
+}
+
+input:focus + label,
+select:focus + label,
+label:focus-within {
+    font-size: 20px;
+    color: darkblue;
+}
+
+input, select {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: width 0.3s ease-in-out;
+}
+
+input:focus, select:focus {
+    width: 90%;
+    border-color: darkblue;
+}
+
+button {
+    background-color: lavenderblush;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: lavender;
+    color: white;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+}
